@@ -9,7 +9,7 @@ module.exports = {
         clean:true
     },
     resolve: {
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.jsx','.ts','.tsx']
     },
     module: {
         rules: [
