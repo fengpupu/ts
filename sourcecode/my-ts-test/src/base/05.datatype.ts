@@ -10,7 +10,7 @@ let arr2: Array<number | string> = [1, 2, 3, '4']//联合类型
 
 // 元组 特殊的数组，限制了数组的元素类型和个数
 let tuple: [number, string] = [0, '1']
-// let tuple2: [number,number] = [0,0,0] 不符合元祖规定个数，会报错
+// let tuple2: [number,number] = [0,0,0] 不符合元祖规定个数，会报错∑
 // 元祖也有push方法，且元祖也会变成push后的元祖，但是不能越界访问
 tuple.push(2)
 console.log(tuple)//[0,'1',2]
