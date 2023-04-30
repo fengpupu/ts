@@ -20,12 +20,12 @@ let result = {
 }
 render(result);//这样可以
 
-render({//这样不可以
-  data: [
-    { id: 1, name: "A", sex: "male" }, //有约定之外的字段
-    { id: 2, name: "B" },
-  ],
-});
+// render({//这样不可以
+//   data: [
+//     { id: 1, name: "A", sex: "male" }, //有约定之外的字段
+//     { id: 2, name: "B" },
+//   ],
+// });
 
 // let res:Result = {
 //     data: [
