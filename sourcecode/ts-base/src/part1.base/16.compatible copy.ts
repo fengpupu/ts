@@ -70,7 +70,7 @@ f = g
 // 函数重载
 function overload(a: number, b: number): number
 function overload(a: string, b: string): string
-function overload(a: any, b: any): any {}
+function overload(a: any, b: any): any {}//源函数
 // function overload(a: any): any {}
 // function overload(a: any, b: any, c: any): any {}
 // function overload(a: any, b: any) {}
